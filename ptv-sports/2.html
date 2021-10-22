@@ -4,7 +4,23 @@
       <style>
           html, body {margin:0;padding:0;height:100%;}
     </style>
+   <script type="text/javascript">
+var playerElement = document.getElementById("player");
+var player = new Clappr.Player({
+ height: "100vh",
+ width: "100%",
+sharePlaylist: true,
+ mute: 'false',
+   plugins: [CDNByeClapprPlugin, LevelSelector],
     
+                    mediacontrol: {
+                        seekbar: '#ff0101',
+                        buttons: '#ff0101'
+                    },
+        });
+     
+    </script>
+      
     
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XTLM3ZLGNS"></script>
