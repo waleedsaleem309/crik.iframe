@@ -1,9 +1,6 @@
 <html>
   <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
- 
- 
-    <title>PTV Sports</title>
+ <title>PTV Sports</title>
   </head>
   <body>
     <style>
